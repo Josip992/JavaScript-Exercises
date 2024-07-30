@@ -1,0 +1,11 @@
+.sec_class{
+    background-color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sec_class h2{
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

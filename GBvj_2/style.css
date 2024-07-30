@@ -1,0 +1,13 @@
+#custom_text {
+  color: red;
+  text-align: left;
+  font-family: Helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+}

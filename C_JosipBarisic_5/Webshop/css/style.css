@@ -1,0 +1,63 @@
+body {background-color: #b8c1ff;}
+
+p {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  h1 {
+    font-size: 100px;
+}
+
+nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    border: 2px solid white;
+    background-color: #A59C9A;
+    color: rgb(245,239,238);
+}
+nav:hover {
+    background-color: #84fdee;
+}
+nav:active {
+    background-color: #c5fff5;
+}
+.header {
+    background-image: url('/images/pexels.jpg');
+    height: 100vh;
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: white;
+    font-family: Roboto
+}
+main{
+    border: 6px solid royalblue;
+}
+.left {
+    float: left;
+    width: 50%;
+    /* border: 6px solid royalblue; */
+}
+.right {
+    float: right;
+    width: 50%;
+    /* border: 6px solid royalblue; */
+}
+ul li {
+    color: #440899;
+    font-family: oboto;
+    font-size: large;
+}
+.copyright {
+    background-color: #50003d;
+    color: white;
+    text-align: center;
+}
